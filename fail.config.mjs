@@ -9,7 +9,7 @@ export default {
 	mode: 'production',
 	target: 'browserslist',
 	devtool: 'source-map',
-	entry: path.resolve(__dirname, 'sass/entry.scss'),
+	entry: path.resolve(__dirname, 'sass', 'entry.scss'),
 	output: {
 		path: path.resolve(__dirname, 'css'),
 		clean: true,
